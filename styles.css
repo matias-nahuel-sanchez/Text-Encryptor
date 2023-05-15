@@ -41,7 +41,7 @@ main {
     border: none;
     resize: none;
     background: white;
-    background-image: url(/assets/cute-background.png);
+    background-image: url(assets/cute-background.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
