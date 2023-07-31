@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
-        <title>Text Encryptor</title>
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="assets/logo-alura.png" alt="logo of alura">
-        </header>
-        <main>
-            <section>
-                <textarea class="text-area" placeholder="input your text here"></textarea>
-                <div>
-                    <h6 class="information"><img src="assets/exclamation.png" alt="exclamation icon">Only lowercase letters and no accents</h6>
-                </div>
-                <div class="buttons">
-                    <button class="btn-encrypt">Encrypt</button>
-                    <button class="btn-decrypt">Decrypt</button>
-                </div>
-            </section>
-            <section>
-                <textarea class="message"></textarea>
-                <div>
-                    <button class="copy">Copy</button>
-                </div>
-            </section>
-        </main>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Text Encryptor</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/logo-alura.png" alt="logo of alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" placeholder="input your text here"></textarea>
+            <div>
+                <h6 class="information"><img src="assets/exclamation.png" alt="exclamation icon">Only lowercase letters
+                    and no accents</h6>
+            </div>
+            <div class="buttons">
+                <button class="btn-encrypt" onclick="btnEncrypt()">Encrypt</button>
+                <button class="btn-decrypt" onclick="btnDecrypt()">Decrypt</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="message"></textarea>
+            <div>
+                <button class="copy">Copy</button>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
 </html>
